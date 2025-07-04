@@ -56,9 +56,3 @@ To run the notebooks successfully, you will need:
    ```bash
    jupyter notebook
    ```
-
-## Notes
-
-* Please update the **Data Source** section with any additional details or links as needed.
-* For questions or feedback, feel free to open an issue in this repository.
-
