@@ -6,7 +6,7 @@ This repository presents a comprehensive data analysis project built around fuel
 
 ### 01\_Data\_Pipeline.ipynb
 
-In the first notebook, the focus is on establishing a robust data pipeline that brings together fuel price information from Tankerkönig and supplementary oil price series retrieved via the `yfinance` library. The notebook guides the user through the process of loading raw datasets, validating their integrity by identifying missing or inconsistent records, and applying systematic cleaning procedures to standardize formats and handle outliers. The cleaned and structured data are then exported in formats optimized for downstream analysis, ensuring reproducibility and transparency throughout the preparation phase.
+In the first notebook, the focus is on establishing a robust data pipeline that brings together fuel price information from Tankerkönig and supplementary oil price series retrieved via the `yfinance` library. The notebook loads the raw datasets, validates their integrity by identifying missing or inconsistent records, and applies systematic cleaning procedures to standardize formats and handle outliers. The cleaned and structured data are then exported in formats optimized for downstream analysis, ensuring reproducibility and transparency throughout the preparation phase.
 
 ### 02\_Summary.ipynb
 
@@ -14,11 +14,11 @@ The second notebook offers a descriptive overview of the preprocessed data, prov
 
 ### 03\_Univariate\_Analysis.ipynb
 
-In the third notebook, univariate time series models are developed to forecast fuel prices based solely on their historical behavior. Beginning with an exploration of trend, seasonality, and stationarity, the notebook then transitions to the construction of simple yet effective forecasting techniques such as ARIMA and Exponential Smoothing models. Each model’s configuration is justified through a careful examination of autocorrelation patterns and error diagnostics, and performance is assessed using standardized metrics and cross-validation. The notebook concludes by interpreting the forecasting outcomes and discussing the limitations inherent to univariate approaches.
+In the third notebook, univariate time series models are developed to forecast fuel prices based solely on their historical behavior. Beginning with an exploration of trend, seasonality, and stationarity, the notebook then transitions to the construction of simple yet effective forecasting techniques such as ARIMA and Exponential Smoothing models. Each model’s configuration is assessed using standardized metrics and cross-validation. The notebook concludes by interpreting the forecasting outcomes.
 
 ### 04\_Multivariate\_Analysis.ipynb
 
-The fourth notebook expands the analytical scope by introducing external explanatory variables into the forecasting framework. Building on the insights from the univariate analysis, this section explores the relationship between fuel prices and oil price indices sourced via `yfinance`, examining correlation structures and potential lead-lag effects. Advanced modeling techniques, including Vector Autoregression (VAR) and multivariate regression, are then employed to capture these interdependencies and enhance forecast accuracy. The results are compared against the univariate benchmarks, and the practical significance of incorporating external factors is critically evaluated.
+The fourth notebook expands the analytical scope by introducing external explanatory variables into the forecasting framework. Building on the insights from the univariate analysis, this section explores the relationship between fuel prices and oil price indices sourced via `yfinance`, examining correlation structures and potential lead-lag effects. The structure of the entire notebook is identical to 03\_Univariate\_Analysis.ipynb.
 
 ## Data
 
