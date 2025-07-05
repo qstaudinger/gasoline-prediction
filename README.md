@@ -1,7 +1,5 @@
 # Gasoline Prediction
 
-# Project Overview
-
 This repository contains a comprehensive data analysis project focused on fuel price data sourced from Tankerkönig. The raw datasets are not included due to licensing restrictions but can be provided upon request.
 
 ## Directory Structure & Notebook Descriptions
